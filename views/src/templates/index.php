@@ -2,7 +2,7 @@
 <?php require_once("layout.php"); ?>
 
 
-<h1 class="display-4">Welcome Mr. Dutta</h1>
+<h1 class="display-4">Welcome Back!</h1>
 
 <?php require_once("footer.php"); ?>
 
