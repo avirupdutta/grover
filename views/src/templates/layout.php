@@ -19,4 +19,4 @@
 </head>
 <body>
     <?php require_once("navbar.php"); ?>
-    <main class="container">
+    <main class="">

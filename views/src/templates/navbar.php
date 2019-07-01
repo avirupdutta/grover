@@ -1,4 +1,4 @@
-<nav class="pl-lg-5 pr-lg-5 navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="pl-lg-5 pr-lg-5 navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
   <a class="navbar-brand" href="./index.php">
     Grover
     <!-- <img class="w-25" src="../images/logo.png" alt="logo"> -->
