@@ -1,0 +1,24 @@
+$bg-base-primary : #c7505f;
+$bg-base-secondary: #aa4351;
+
+.bg-base{ background: $bg-base-primary; }
+nav{
+    .navbar-brand { width: 150px; }
+    .nav-item{ letter-spacing: 2px; }
+    .nav-item:hover{
+        background: $bg-base-secondary;
+        border-radius: 1.078em;
+    }
+    form{
+        max-width: 400px;
+    }
+    .navbar-toggler{
+        border: none;
+        position: relative;
+        left: -1rem;
+    }
+
+
+}
+
+

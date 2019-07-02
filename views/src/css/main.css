@@ -1,0 +1,27 @@
+.bg-base {
+  background: #c7505f;
+}
+
+nav .navbar-brand {
+  width: 150px;
+}
+
+nav .nav-item {
+  letter-spacing: 2px;
+}
+
+nav .nav-item:hover {
+  background: #aa4351;
+  border-radius: 1.078em;
+}
+
+nav form {
+  max-width: 400px;
+}
+
+nav .navbar-toggler {
+  border: none;
+  position: relative;
+  left: -1rem;
+}
+/*# sourceMappingURL=main.css.map */
