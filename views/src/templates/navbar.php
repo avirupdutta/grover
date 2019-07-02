@@ -1,12 +1,4 @@
-<nav class="pl-lg-5 pr-lg-5 navbar navbar-expand-lg navbar-dark bg-base">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <a class="navbar-brand" href="./index.php">
-    <!-- Grover -->
-    <img class="nav-logo w-100" src="../images/logo.png" alt="logo">
-  </a>
 
   <div class="collapse navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-lg-5">
