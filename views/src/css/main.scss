@@ -1,24 +1,109 @@
-$bg-base-primary : #c7505f;
+/** GLOBAL styles for bothh large and small devices */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap');
+
+$bg-base-primary : #d23f61eb;
 $bg-base-secondary: #aa4351;
 
+
+*{ font-family: 'Josefin Sans', sans-serif; }
+body{ background: #fffbfb; }
 .bg-base{ background: $bg-base-primary; }
+
+
 nav{
+    // height: 5rem;
+
     .navbar-brand { width: 150px; }
-    .nav-item{ letter-spacing: 2px; }
+    .nav-item{ letter-spacing: 1px; }
     .nav-item:hover{
-        background: $bg-base-secondary;
+        text-shadow: 0px 0px 3px #d1d1d1;
         border-radius: 1.078em;
     }
     form{
         max-width: 400px;
     }
-    .navbar-toggler{
+    .navbar-toggler, .navbar-toggler:focus{
         border: none;
-        position: relative;
-        left: -1rem;
+        outline: none;
+    }
+    .navbar-collapse{
+        a{ font-family: 'Josefin Sans', sans-serif; }
     }
 
 
 }
+.aside-navbar-fixed{
+    width: 0%;
+    display: none;
+}
+.side-list-top, .side-list-middle, .side-list-bottom{
+    padding-left: 1.5rem;
+    padding-top: .25rem;
+
+    a{ display: block; }
+    a:hover{
+        color: #111 !important;
+        text-decoration: none;
+    }
+}
+.main-content-area{ padding-right: 0; }
+
+.btn-cart::after{
+    content: '15';
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: #bc2020d1;
+    padding: 3px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+}
+
+/** Custom styles for large devices (PC, and LAPTOPs) */
+@media(min-width: 600px){
+    nav{ height: 5rem; }
+
+    main {  margin-top: 5rem; }
+}
+
+/** Custom styles for small devices (mobiles) */
+@media(max-width: 992px){
+    
+    .btn-close-navbar { font-size: 60px; }
+    main{ margin-top: 3.75rem; }
+
+    /** For left side hamburger menubar in small devices  **/
+    .aside-navbar-fixed{
+        display: block;
+        position: fixed;
+        top: 60px;
+        left: -80%;
+        width: 80%;
+        height: calc(100% - 60px);
+        padding: 0rem 2rem;
+        z-index: 10000;
+        background-color: $bg-base-secondary;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        transition: all 2s ease-in-out;
+        a{
+            color: #fff;
+            display: block;
+        }
+        .overlay-content a{
+            margin: 2.5rem 0rem;
+        }
+    }
+
+    /** **  THESE CLASSES ARE UNDER TESTING!  ** 
+        .side-list-top, .side-list-middle, .side-list-bottom { display: none; }
+        
+    */
 
 
+
+
+
+
+}

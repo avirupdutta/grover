@@ -44,11 +44,20 @@
     </div>
 </section>
 
-<!-- Section 1 -->
+<!-- Section 1 (Deals of the Day)-->
 <section class="section-one container mt-lg-5 mb-4" id="sectionOne">
-    <div class="row">
-        <div class="col-sm-9">
-            <h3>Deals of the Day <span class="text-danger">06:45:36</span> hours left!</h3>
+    <div class="row mt-lg-5 pt-lg-5">
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-10">
+                    <h3>Deals of the Day <span class="text-danger">06:45:36</span> hours left!</h3>
+                </div>
+                <div class="col-sm-2 text-right">
+                    <a href="#">
+                        <button class="btn btn-primary"><i class="fas fa-plus"></i> 15 More!</button>
+                    </a>
+                </div>
+            </div>
             <hr>
             <div class="content mt-4">
                 <div class="card-group mt-2 mb-2">
@@ -56,11 +65,14 @@
                         <a href="#" style="text-decoration: none !important;">
                             <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
+                                <small class="card-text text-dark">
+                                    <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                        <br>
+                                        <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                    </p>
+                                    <h6> <i class="fas fa-rupee-sign"></i> 
+                                       <span class="product-price" id="productPrice">1,250</span>/- 
+                                    </h6>
                                 </small>
                             </div>
                         </a>
@@ -69,11 +81,14 @@
                         <a href="#" style="text-decoration: none !important;">
                             <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
+                                <small class="card-text text-dark">
+                                    <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                        <br>
+                                        <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                    </p>
+                                    <h6> <i class="fas fa-rupee-sign"></i> 
+                                       <span class="product-price" id="productPrice">1,250</span>/- 
+                                    </h6>
                                 </small>
                             </div>
                         </a>
@@ -82,11 +97,14 @@
                         <a href="#" style="text-decoration: none !important;">
                             <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
+                                <small class="card-text text-dark">
+                                    <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                        <br>
+                                        <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                    </p>
+                                    <h6> <i class="fas fa-rupee-sign"></i> 
+                                       <span class="product-price" id="productPrice">1,250</span>/- 
+                                    </h6>
                                 </small>
                             </div>
                         </a>
@@ -95,171 +113,39 @@
                         <a href="#" style="text-decoration: none !important;">
                             <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="card-group mt-2 mb-2">
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
+                                <small class="card-text text-dark">
+                                    <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                        <br>
+                                        <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                    </p>
+                                    <h6> <i class="fas fa-rupee-sign"></i> 
+                                       <span class="product-price" id="productPrice">1,250</span>/- 
+                                    </h6>
                                 </small>
                             </div>
                         </a>
                     </div>
                     <div class="card ml-1 mr-1 border rounded">
                         <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
+                            <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
+                                <small class="card-text text-dark">
+                                    <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                        <br>
+                                        <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                    </p>
+                                    <h6> <i class="fas fa-rupee-sign"></i> 
+                                       <span class="product-price" id="productPrice">1,250</span>/- 
+                                    </h6>
                                 </small>
                             </div>
                         </a>
                     </div>
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card ml-1 mr-1" style="border: none; display: flex; align-items: center; justify-content: center;">
+                    <!-- <div class="ml-1 mr-1" style="border: none; display: flex; align-items: center; justify-content: center;">
                         <a href="#">
                             <button class="btn btn-outline-primary">+15 More!</button>
                         </a>
-                    </div>
-                </div>
-                <!-- Carousel Concept! ***** UNDER TESTING ***** -->
-                <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card-group">
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card-group">
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div> -->
-                
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card rounded">
-                <img src="../images/potraits/long1.jpg" class="w-100" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit!</p>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -280,212 +166,106 @@
 <section class="section-three container mt-lg-5 mb-4" id="sectionThree">
     <div class="row">
         <div class="col-sm-12">
-            <h3>Popular Near You</h3>
-            <hr>
-            <div class="content mt-4">
-                <div class="card-group mt-2 mb-2">
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="card-group mt-2 mb-2">
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting.</p>
-                                <small class="card-text">
-                                    <span class="bg-success p-2 text-light mb-2"> <i class="fas fa-star"></i> 4.5 (316)</span>
-                                    <span class="bg-warning p-2 text-light"> <i class="fas fa-rupee-sign"></i> 1,250/- </span>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card ml-1 mr-1" style="border: none; display: flex; align-items: center; justify-content: center;">
-                        <a href="#">
-                            <button class="btn btn-outline-primary">+8 More!</button>
-                        </a>
-                    </div>
-                </div>
-                <!-- Carousel Concept! ***** UNDER TESTING ***** -->
-                <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card-group">
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <h3>Popular Near You!</h3>
+            </div>
+            <div class="col-sm-2 text-right">
+                <a href="#">
+                    <button class="btn btn-primary"><i class="fas fa-plus"></i> 15 More!</button>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="content mt-4">
+            <div class="card-group mt-2 mb-2">
+                <div class="card ml-1 mr-1 border rounded">
+                    <a href="#" style="text-decoration: none !important;">
+                        <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <small class="card-text text-dark">
+                                <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                    <br>
+                                    <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                </p>
+                                <h6> <i class="fas fa-rupee-sign"></i> 
+                                    <span class="product-price" id="productPrice">1,250</span>/- 
+                                </h6>
+                            </small>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card-group">
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="#">
-                                        <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                </div>
+                <div class="card ml-1 mr-1 border rounded">
+                    <a href="#" style="text-decoration: none !important;">
+                        <img src="../images/products/img2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <small class="card-text text-dark">
+                                <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                    <br>
+                                    <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                </p>
+                                <h6> <i class="fas fa-rupee-sign"></i> 
+                                    <span class="product-price" id="productPrice">1,250</span>/- 
+                                </h6>
+                            </small>
+                        </div>
+                    </a>
+                </div>
+                <div class="card ml-1 mr-1 border rounded">
+                    <a href="#" style="text-decoration: none !important;">
+                        <img src="../images/products/img3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <small class="card-text text-dark">
+                                <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                    <br>
+                                    <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                </p>
+                                <h6> <i class="fas fa-rupee-sign"></i> 
+                                    <span class="product-price" id="productPrice">1,250</span>/- 
+                                </h6>
+                            </small>
+                        </div>
+                    </a>
+                </div>
+                <div class="card ml-1 mr-1 border rounded">
+                    <a href="#" style="text-decoration: none !important;">
+                        <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <small class="card-text text-dark">
+                                <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                    <br>
+                                    <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                </p>
+                                <h6> <i class="fas fa-rupee-sign"></i> 
+                                    <span class="product-price" id="productPrice">1,250</span>/- 
+                                </h6>
+                            </small>
+                        </div>
+                    </a>
+                </div>
+                <div class="card ml-1 mr-1 border rounded">
+                    <a href="#" style="text-decoration: none !important;">
+                        <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <small class="card-text text-dark">
+                                <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
+                                    <br>
+                                    <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
+                                </p>
+                                <h6> <i class="fas fa-rupee-sign"></i> 
+                                    <span class="product-price" id="productPrice">1,250</span>/- 
+                                </h6>
+                            </small>
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="ml-1 mr-1" style="border: none; display: flex; align-items: center; justify-content: center;">
+                    <a href="#">
+                        <button class="btn btn-outline-primary">+15 More!</button>
                     </a>
                 </div> -->
-                
             </div>
+        </div>
         </div>
     </div>
 </section>
