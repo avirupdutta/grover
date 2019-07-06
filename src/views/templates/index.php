@@ -14,7 +14,7 @@
         <div class="carousel-item active">
             <img src="../images/slider1.jpg" class="d-block w-100" alt="slider-img">
             <div class="carousel-caption d-none d-md-block" style="background: #0000003d;">
-                <h1 class="display-4">Slide title is Updated By Avirup</h1>
+                <h1 class="display-4">Slide title is Updated By Anasuya</h1>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
         </div>
