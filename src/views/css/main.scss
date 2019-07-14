@@ -1,8 +1,8 @@
 /** GLOBAL styles for bothh large and small devices */
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap');
 
-$bg-base-primary : #d23f61eb;
-$bg-base-secondary: #aa4351;
+$bg-base-primary : #300e72eb;
+$bg-base-secondary: #35205f;
 
 
 *{ font-family: 'Josefin Sans', sans-serif; }
@@ -59,12 +59,14 @@ nav{
     position: absolute;
     top: 10px;
 }
+.show-desktop, .show-mobile{ display: none; }
 
 /** Custom styles for large devices (PC, and LAPTOPs) */
 @media(min-width: 600px){
     nav{ height: 5rem; }
 
-    main {  margin-top: 5rem; }
+    // main {  margin-top: 5rem; }
+    .show-desktop{ display: block; }
 }
 
 /** Custom styles for small devices (mobiles) */
@@ -107,3 +109,15 @@ nav{
 
 
 }
+
+@media (max-width: 599px){
+    .show-mobile { display: block; }
+
+    .card-group{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-group > .card { width: 47%; }
+}
+

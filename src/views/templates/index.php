@@ -52,7 +52,7 @@
                 <div class="col-sm-10">
                     <h3>Deals of the Day <span class="text-danger">06:45:36</span> hours left!</h3>
                 </div>
-                <div class="col-sm-2 text-right">
+                <div class="col-sm-2 text-right show-desktop">
                     <a href="#">
                         <button class="btn btn-primary"><i class="fas fa-plus"></i> 15 More!</button>
                     </a>
@@ -125,27 +125,11 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card ml-1 mr-1 border rounded">
-                        <a href="#" style="text-decoration: none !important;">
-                            <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <small class="card-text text-dark">
-                                    <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
-                                        <br>
-                                        <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
-                                    </p>
-                                    <h6> <i class="fas fa-rupee-sign"></i> 
-                                       <span class="product-price" id="productPrice">1,250</span>/- 
-                                    </h6>
-                                </small>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- <div class="ml-1 mr-1" style="border: none; display: flex; align-items: center; justify-content: center;">
-                        <a href="#">
-                            <button class="btn btn-outline-primary">+15 More!</button>
-                        </a>
-                    </div> -->
+                </div>
+                <div class="text-right show-mobile">
+                    <a href="#">
+                        <button class="btn btn-primary btn-lg btn-block"><i class="fas fa-plus"></i> 15 More!</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -154,7 +138,7 @@
 
 
 <!-- Section 2 -->
-<section class="section-two container mt-lg-5 mb-lg-5" id="sectionTwo">
+<section class="section-two container mt-lg-5 mb-lg-5 show-desktop" id="sectionTwo">
     <div class="row">
         <div class="col-sm-4" style="max-height:200px; overflow-y: hidden;"><img class="rounded w-100" src="../images/banners/banner1.jpg" alt="..."></div>
         <div class="col-sm-4" style="max-height:200px; overflow-y: hidden;"><img class="rounded w-100" src="../images/banners/banner2.jpg" alt="..."></div>
@@ -170,7 +154,7 @@
             <div class="col-sm-10">
                 <h3>Popular Near You!</h3>
             </div>
-            <div class="col-sm-2 text-right">
+            <div class="col-sm-2 text-right show-desktop">
                 <a href="#">
                     <button class="btn btn-primary"><i class="fas fa-plus"></i> 15 More!</button>
                 </a>
@@ -243,27 +227,11 @@
                         </div>
                     </a>
                 </div>
-                <div class="card ml-1 mr-1 border rounded">
-                    <a href="#" style="text-decoration: none !important;">
-                        <img src="../images/products/img4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <small class="card-text text-dark">
-                                <p class="card-text font-weight-normal product-title" id="productTitle" style="font-size: 16px">Choose Kookie Jar Outlet
-                                    <br>
-                                    <small class="text-success ratings" id="productRatings" style="font-size: 14px"> <i class="fas fa-star"></i> 4.5 (316)</small>
-                                </p>
-                                <h6> <i class="fas fa-rupee-sign"></i> 
-                                    <span class="product-price" id="productPrice">1,250</span>/- 
-                                </h6>
-                            </small>
-                        </div>
-                    </a>
-                </div>
-                <!-- <div class="ml-1 mr-1" style="border: none; display: flex; align-items: center; justify-content: center;">
-                    <a href="#">
-                        <button class="btn btn-outline-primary">+15 More!</button>
-                    </a>
-                </div> -->
+            </div>
+            <div class="show-mobile">
+                <a href="#">
+                    <button class="btn btn-primary btn-lg btn-block"><i class="fas fa-plus"></i> 15 More!</button>
+                </a>
             </div>
         </div>
         </div>
@@ -272,7 +240,7 @@
 
 
 <!-- Section 4 -->
-<section class="section-four container mt-lg-5 mb-lg-5" id="sectionFour">
+<section class="section-four container mt-lg-5 mb-lg-5 show-desktop" id="sectionFour">
     <div class="row">
         <div class="col-sm-4" style="max-height:200px; overflow-y: hidden;"><img class="rounded w-100" src="../images/banners/banner1.jpg" alt="..."></div>
         <div class="col-sm-4" style="max-height:200px; overflow-y: hidden;"><img class="rounded w-100" src="../images/banners/banner2.jpg" alt="..."></div>
