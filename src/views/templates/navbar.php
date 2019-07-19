@@ -49,7 +49,7 @@
 
     <!-- Make these buttons available for logged out vissitors -->
     <div class="user-logged-out ml-auto">
-      <a name="" id="" class="btn btn-light" href="./login.php" role="button">Sign In <i class="fas fa-sign-in-alt"></i></a>
+      <a name="" id="" class="btn btn-light" href="./login.php" role="button">Login Here <i class="fas fa-sign-in-alt"></i></a>
     </div>
   </div>
 </nav>

@@ -10,9 +10,6 @@
     <link rel="stylesheet" href="../css/bootswatch/litera.css">
     <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
     
-    <!-- Custom Style -->
-    <link rel="stylesheet" href="../css/main.css">
-
     <!-- fontawesome kit -->
     <!-- <script src="../js/fontawesome-kit/fontawesome.kit.js"></script> -->
 
@@ -21,8 +18,5 @@
 
     <!-- Navbar script for mobile devices -->
     <script src="../js/navbar.js"></script>
-</head>
-<body>
-    <?php require_once("navbar.php"); ?>
-    <main class="row" style="margin-right: 0px;">
-        <div class="col-sm-12 main-content-area">
+
+    
