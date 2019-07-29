@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <nav class="pl-lg-5 pr-lg-5 navbar navbar-expand-lg navbar-dark bg-base fixed-top">
   
   <!-- Hamburger icon -->
@@ -29,28 +31,42 @@
       </div>
     </form>
     <!-- Make these buttons available for logged in user -->
-    <!-- <div class="user-logged-in ml-auto">
-      <div class="btn-group mr-sm-1">
-        <button type="button" class="btn btn-light">Account <i class="fas fa-user-circle"></i></button>
-        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span class="sr-only">Toggle Dropdown</span>
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item mb-3" href="#"><i class="fas fa-list-ul"></i> My Orders</a>
-          <a class="dropdown-item mb-3" href="#"><i class="fas fa-heart"></i> Wishlist</a>
-          <a class="dropdown-item mb-3" href="#"><i class="fas fa-bell"></i> Notifications</a>
-          <a class="dropdown-item mb-3" href="#"><i class="fas fa-sign-in-alt"></i> Logout</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Help Center</a>
-        </div>
-      </div>
-      <a href="#" class="btn btn-warning mr-auto btn-cart"><i class="fas fa-shopping-cart"></i></a>
-    </div> -->
 
-    <!-- Make these buttons available for logged out vissitors -->
-    <div class="user-logged-out ml-auto">
-      <a name="" id="" class="btn btn-light" href="./login.php" role="button">Login Here <i class="fas fa-sign-in-alt"></i></a>
-    </div>
+    <?php if(isset($_SESSION['currentUserEmail'])){
+      echo("
+          <div class='user-logged-in ml-auto'>
+          <div class='btn-group mr-sm-1'>
+            <button type='button' class='btn btn-light'>Account <i class='fas fa-user-circle'></i></button>
+            <button type='button' class='btn btn-light dropdown-toggle dropdown-toggle-split' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+              <span class='sr-only'>Toggle Dropdown</span>
+            </button>
+            <div class='dropdown-menu'>
+              <a class='dropdown-item mb-3' href='#'><i class='fas fa-list-ul'></i> My Orders</a>
+              <a class='dropdown-item mb-3' href='#'><i class='fas fa-heart'></i> Wishlist</a>
+              <a class='dropdown-item mb-3' href='#'><i class='fas fa-bell'></i> Notifications</a>
+              <a class='dropdown-item mb-3' href='logout.php'><i class='fas fa-sign-in-alt'></i> Logout</a>
+              <div class='dropdown-divider'></div>
+              <a class='dropdown-item' href='#'>Help Center</a>
+            </div>
+          </div>
+          <a href='#' class='btn btn-warning mr-auto btn-cart'><i class='fas fa-shopping-cart'></i></a>
+        </div>
+      ");
+    }?>
+    
+
+    <!-- Make these buttons available for logged out visitors -->
+
+    <?php if(!isset($_SESSION['currentUserEmail'])){
+      echo("
+        <div class='user-logged-out ml-auto'>
+          <a name='' id='' class='btn btn-light' href='./login.php' role='button'>Login Here <i class='fas fa-sign-in-alt'></i></a>
+        </div>
+      ");
+      }
+    ?>
+
+    
   </div>
 </nav>
 
