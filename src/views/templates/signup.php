@@ -13,9 +13,12 @@
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <form action="../../controllers/process/login.process.php" method="post">
-
-
-                </form>        
+                    <input type="text"class="input-box" placeholder="Enter your First-Name">
+                    <input type="text"class="input-box" placeholder="Enter your First-Name"> 
+                    <input type="email"class="input-box" placeholder="Enter your E-mail">
+                    <input type="password"class="input-box" placeholder="Enter your Password">
+                    <input type="password"class="input-box" placeholder="Re-enter your Password">
+            </form>        
             </div>
             <div class="col-sm-3"></div>
         </div>
