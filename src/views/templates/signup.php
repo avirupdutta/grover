@@ -8,6 +8,17 @@
         {
             margin :0;
             padding:0;
+            font-family: sans-serif;
+        }
+
+        .sign-up-form
+        {
+            width:300px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+            background: #fff;
+            padding : 20px;
+            margin: 8% auto 0;
+            text-align: center;
         }
 
 
@@ -29,6 +40,9 @@
                     <input type="email"class="input-box" placeholder="Enter your E-mail">
                     <input type="password"class="input-box" placeholder="Enter your Password">
                     <input type="password"class="input-box" placeholder="Re-enter your Password">
+                    <p><span><input type="checkbox"></span> I agree to the terms of service </p>
+                    <button type="button" class="signup-btn"> Sign-up </button>
+                    <hr>
             </form>        
             </div>
             <div class="col-sm-3"></div>
