@@ -2,27 +2,7 @@
 <?php require_once("layout.php"); ?>
 
 <!-- CUSTOM STYLE -->
-<link rel="stylesheet" href="<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<style>
-    <body>
-        {
-            margin :0;
-            padding:0;
-            font-family: sans-serif;
-        }
-
-        .sign-up-form
-        {
-            width:300px;
-            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-            background: #fff;
-            padding : 20px;
-            margin: 8% auto 0;
-            text-align: center;
-        }
-
-
-    </body>
+<link rel="stylesheet" href="../css/login-signup.css">
 </head>
 <body>
     <?php require_once("navbar.php"); ?>
@@ -32,18 +12,35 @@
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-            <div class="sign-up-form">
-            <h1> Sign Up Nowv</h1>
+                <h2 class="text-center">Create Your Account</h2>
+                <hr>
                 <form action="../../controllers/process/login.process.php" method="post">
-                    <input type="text"class="input-box" placeholder="Enter your First-Name">
-                    <input type="text"class="input-box" placeholder="Enter your First-Name"> 
-                    <input type="email"class="input-box" placeholder="Enter your E-mail">
-                    <input type="password"class="input-box" placeholder="Enter your Password">
-                    <input type="password"class="input-box" placeholder="Re-enter your Password">
-                    <p><span><input type="checkbox"></span> I agree to the terms of service </p>
-                    <button type="button" class="signup-btn"> Sign-up </button>
-                    <hr>
-            </form>        
+                    <div class="form-group mb-4">
+                        <div class="row">
+                            <div class="col-sm-6">
+                            <label for="">First Name <span class="text-danger">*</span></label>
+                                <input type="text"class="form-control" required>
+                            </div>
+                            <div class="col-sm-6">
+                            <label for="">Last Name <span class="text-danger">*</span></label>
+                                <input type="text"class="form-control" required> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="">Email <span class="text-danger">*</span></label>
+                        <input type="email"class="form-control" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="">Password <span class="text-danger">*</span></label>
+                        <input type="password"class="form-control" placeholder="Minimum 6 characters" required>
+                    </div>
+                    <div class="form-group text-center mb-4">
+                        <p>Already have an Account? <a class="text-warning" href="./login.php">Login Here</a></p>
+                        <p>By creating your account you agree to accept our <a href="#">Terms and Conditions</a></p>
+                    </div>
+                    <button type="submit" class="signup-btn btn btn-block btn-success">Sign-up <i class="far fa-paper-plane"></i></button>
+                </form>        
             </div>
             <div class="col-sm-3"></div>
         </div>

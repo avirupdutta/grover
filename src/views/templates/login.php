@@ -2,7 +2,7 @@
 <?php require_once("layout.php"); ?>
 
 <!-- CUSTOM STYLE -->
-<link rel="stylesheet" href="../css/login.css">
+<link rel="stylesheet" href="../css/login-signup.css">
 </head>
 <body>
     <?php require_once("navbar.php"); ?>
